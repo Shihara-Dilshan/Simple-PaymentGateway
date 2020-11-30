@@ -1,0 +1,26 @@
+{
+  "name": "paymentgatway",
+  "version": "1.0.0",
+  "description": "Simple payament gateway with node and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shihara-Dilshan/Simple-PaymentGateway.git"
+  },
+  "author": "Shihara-Dilshan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shihara-Dilshan/Simple-PaymentGateway/issues"
+  },
+  "homepage": "https://github.com/Shihara-Dilshan/Simple-PaymentGateway#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "stripe": "^8.126.0"
+  }
+}
